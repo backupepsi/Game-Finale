@@ -28,7 +28,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(2000, 1500); 
+  createCanvas(windowWidth, windowWHeight); 
 /*rG = new Group();
 oG = new Group();
 yG = new Group();
