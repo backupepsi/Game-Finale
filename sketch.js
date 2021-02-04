@@ -369,12 +369,11 @@ if (gameState==="end"){
     
 
 
-if(keyDown("SPACE")){
+if(touches.length>0||keyDown("SPACE")){
   player.velocityX = velX;
   player.velocityY = velY;
   gameState = "play";
-  //launch sound
-  //lsound.play();
+  touches =[];
 }
 
 fill(47, 148, 255);
